@@ -1,0 +1,290 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera {
+    background-color: #0D47A1;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+}
+
+.dropbtn {
+    width: 100%;
+    background-color: #0b2c5c;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    /*cursor: pointer;
+    transition: background-color 0.3s ease;*/
+}
+
+.dropbtn:hover {
+    background-color: #8bb8ec;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+}
+
+nav:hover .dropdown-content {
+    display: block;
+}
+
+nav:hover .dropbtn {
+    background-color: #0D47A1;
+}
+
+body {
+    background-color: #E3F2FD;
+}
+
+header {
+    background-color: #1565C0;
+    color: #D2DE10;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+}
+
+nav {
+    background-color: #1976D2;
+    color: #2F043C;
+    margin: 5px;
+    padding: 8px;
+    text-align: center;
+}
+
+#principal {
+    display: flex;
+    flex-flow: row;
+}
+
+#secciones {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+aside {
+    background-color: #64B5F6;
+    /*color: #24390E;*/
+    margin-right: 5px;
+    width: 15%;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+#seccion1 {
+    background-color: #42A5F5;
+    /*color: #071E2E;*/
+    display: flex;
+    flex-flow: row;
+}
+
+.margenes {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+#facts:hover {
+    background-color: #90CAF9;
+}
+
+article {
+    background-color: #2196F3;
+    /*color: #8C0A3D;*/
+    margin: 10px;
+    padding: 8px;
+    text-align: justify;
+}
+
+footer {
+    /*background-color: #81D4FA;*/
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    text-align: center;
+    height: 40px;
+}
+
+#barra {
+    font-size: 14px;
+    width: 100%;
+    margin: auto;
+    background-color: #0D47A1;
+    /*color: white;*/
+}
+
+
+
+/*body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera{
+    background-color: #1b2d86;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+}
+
+.dropbtn {
+    width: 100%;
+    background-color: #211065;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black; 
+}
+
+nav:hover .dropdown-content {
+    display: block;
+}
+
+nav:hover .dropbtn {
+    background-color: #1b2d86;
+}
+
+body{
+    background-color: #FECE8C;
+}
+
+header{
+    background-color: #1E3903;
+    color: #D2DE10;
+    font-size: 25pxc;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 30px;
+}
+
+nav{
+    background-color: #E5AEF5;
+    color: #2F043C;
+    margin: 5px;
+    padding: 8px;
+    text-align: center;
+}
+
+#principal{
+    display: flex;
+    flex-flow: row;
+}
+
+#secciones{
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+aside{
+    background-color: #C9F599;
+    color: #24390E;
+    margin-right: 5px;
+    width: 15%;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+#seccion1{
+    background-color: #85C8F7;
+    color: #071E2E;
+    display: flex;
+    flex-flow: row;
+}
+
+.margenes{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+#facts:hover{
+    background-color: #d9fbb5;
+}
+
+article{
+    background-color: #F785B1;
+    color: #8C0A3D;
+    margin: 10px;
+    padding: 8px;
+    text-align: justify;
+}
+
+footer{
+    background-color: lightblue;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    text-align: center;
+    height: 40px;
+}
+
+#barra{
+    font-size: 14px;
+    width: 100%;
+    margin: auto;
+    background-color: royalblue;
+    color: white;
+}*/
